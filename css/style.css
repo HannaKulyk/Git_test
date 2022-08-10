@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,600&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
 
 /* font-family: 'Montserrat',sans-serif; */
 /* font-family: 'Roboto',sans-serif; */
@@ -28,7 +28,7 @@ li {
     display: inline-block;
 }
 
-h1 {
+h1, h2, h3 {
     margin: 0;
 }
 .header {
@@ -171,13 +171,12 @@ line-height: 26px;
 margin-bottom: 60px;
 }
 
-.header_content-a {
+.header_content-a, .about_content-a {
     display: inline-block;
     min-width: 220px;
     height: 60px;
     border: 1px solid #CDA861;
     padding: 16px 23px;
-    border-radius: 50px;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -186,6 +185,72 @@ margin-bottom: 60px;
     text-align: center;
     background-color: #CDA861;
     color: #34383D;
+}
+
+.about {
+    padding: 80px 40px;
+}
+
+.about__inner {
+    width: 1600px;
+    height: 600px;
+    background: rgba(205, 168, 97, 0.1);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 50px;
+    }
+
+    .about__home {
+    margin-left: 70px;
+    }
+
+.about__decor {
+position: absolute;
+left: -95px;
+bottom: -80px;
+}
+
+
+.about__content {
+    position: relative;
+    margin-left: 70px;
+    max-width: 520px;
+}
+
+.section__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #CDA861;
+    display: inline-block;
+    margin-bottom: 20px;
+    }
+
+.about__slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 93px;
+    text-transform: uppercase;
+    max-width: 461px;
+    margin-bottom: 30px;
+}
+
+.about__text {
+    color: #34383D;
+    opacity: 0,8;
+    margin-bottom: 25px;
+}
+
+.about__chair {
+    position: absolute;
+    bottom: -25px;
+    right: -270px;
 }
 
 
