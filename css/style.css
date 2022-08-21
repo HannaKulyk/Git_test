@@ -347,7 +347,7 @@ margin-bottom: 30px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-
+margin-bottom: 20px;
     }
 
 .timer__item {
@@ -386,6 +386,159 @@ margin-bottom: 30px;
 
 .deals__s {}
 
+.spec {
+text-align: center;
+padding: 80px 0;
+}
+
+.container {}
+
+.spec__bgimg {
+    background-image: url(../img/sofa/sofa.png);
+    width: 956px;
+    height: 415px;
+    margin: 0 auto -40px;
+    }
+
+.spec__wraper {
+max-width: 1680px;
+    height: 303px;
+    background-color: rgba(205, 168, 97, 0.19);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.spec__items {
+width: 1032px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 70px;
+}
+
+.spec__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+.spec__img {
+width: 94px;
+height: 67px;
+background-repeat: no-repeat;
+background-position: right 0;
+margin-right: 20px;
+}
+
+.spec__item-truck {
+background-image: url(../img/sofa/truck.svg);
+}
+.spec__item-headphone {
+background-image: url(../img/sofa/Group.svg);
+}
+.spec__item-hand {
+background-image: url(../img/sofa/Groupusd.svg);
+}
+
+.spec__item-descr {
+    text-align: left;
+
+}
+
+.spec__item-title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+
+.spec__item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sub {
+    padding: 80px 0;
+    }
+
+.sub__bgimg {
+    margin: 0 120px;
+    background-image: url(../img/section_five/img.png);
+    width: 1440px;
+    height: 697px;
+    background-position: center -29px;
+    Radius: 62px;
+    padding: 100px 110px;
+
+}
+
+.sub .section__title {
+    margin-bottom: 32px;
+}
+.sub__text {
+    margin-bottom: 80px;
+    max-width: 610px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.sub__form {
+    width: 610px;
+    
+}
+input[type=email] {
+    border: none;
+    width: 100%;
+    background: #ffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 150px;
+    height: 79px;
+    padding: 25px 250px 26px 40px;
+    outline: none;
+    Font-family: Montserrat;
+    font-weight: 400;
+    Font-style: regular;
+    Font-size: 22px;
+    Line-height: 27px;
+    color: black;
+}
+
+.sub__form-wrapper {
+position: relative;
+}
+
+input[type=email]::placeholder {
+    color: black;
+}
+
+input[type=submit] {
+    display: inline-block;
+        min-width: 210px;
+        height: 60px;
+        border: 1px solid #CDA861;
+        padding: 16px 23px;
+        border-radius: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        text-align: center;
+        background-color: #CDA861;
+        color: #34383D;
+        text-transform: uppercase;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+
+
+       
+}
 
 
 
