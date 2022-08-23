@@ -337,7 +337,7 @@ margin-bottom: 30px;
 }
 
 .section__title {
-    border: none;
+    /* border: none; */
     margin-bottom: 35px;
 }
 
@@ -460,6 +460,71 @@ background-image: url(../img/sofa/Groupusd.svg);
     font-size: 14px;
     line-height: 16px;
 }
+
+.say {}
+
+.container {}
+
+.say__inner {
+   }
+
+.say__container {
+    display: flex;
+    margin: 0 auto; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+
+.say__slader {
+    max-width: 540px;
+    height: 345px;
+    border: 1px solid #492222;
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    }
+
+.say__img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    
+}
+
+.say__img-ellipse {
+    
+}
+
+.say__text {
+    Font-size: 18px;
+    Line-height: 21px;
+    color: #34383D;
+    Opacity: 80%;
+    text-align: center;
+    padding: 108px 21px 153px 21px;
+    max-width: 498px;
+    max-height: 84px;
+    }
+
+.say__title, .say__text-off {
+text-align: center;
+}
+
+.say__title {
+Font-size: 22px;
+Line-height: 26px;
+color: #000000;
+}
+
+.say__text-off {
+Font-size: 20px;
+Line-height: 23px;
+}
+ 
+
 
 .sub {
     padding: 80px 0;
