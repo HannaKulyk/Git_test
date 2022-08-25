@@ -461,29 +461,37 @@ background-image: url(../img/sofa/Groupusd.svg);
     line-height: 16px;
 }
 
-.say {}
+.say {
+    
+}
 
-.container {}
+.say__inner h2 {
+   
+    }
 
-.say__inner {
-   }
+.say__say {
+text-align: center;
+}
 
 .say__container {
     display: flex;
     margin: 0 auto; 
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    margin-top: 40px;
+     
 }
 
 .say__slader {
     max-width: 540px;
     height: 345px;
-    border: 1px solid #492222;
+    border: none;
     background-color: #ffff;
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
+    margin: -5px;
     }
 
 .say__img {
@@ -600,11 +608,81 @@ input[type=submit] {
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
-
-
-       
+      
 }
 
+footer {
+background-color: #CDA861;
+height: 472px;
+max-width: 1920px;
+background-repeat: no-repeat;
+margin: 0 auto;
+padding-top: 20px;
+}
+
+.footer__title {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+
+.footer__title__left {
+    max-width: 607px;
+    margin-top: 40px;
+}
+
+.footer__title__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 230px;
+    margin-top: 40px;
+}
+
+.footer__span {
+    color: solid #34383D ;
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: -40px;
+    border-bottom: 2px solid #F2F1F1;
+    padding-bottom: 10px;
+}
+.footer__title__right-one {
+padding: 10px 150px 0 0;
+}
+
+.footer__title__right-two {
+padding: 10px 30px 0 0;
+}
+
+.link {
+padding-top: 30px;
+}
+
+
+.link__item {
+display: list-item;
+list-style-type: disc;
+text-transform: uppercase;
+line-height: 200%;
+}
+
+.footer__floor-one {
+    text-align: center;
+    padding: 15px;
+    background: #34383D;
+    width: 1920px;
+    color: #CDA861;
+    font-family: Roboto;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    bottom: 0;
+    margin-top: 110px;
+}
 
 
 
